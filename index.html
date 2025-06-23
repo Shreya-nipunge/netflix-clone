@@ -33,8 +33,22 @@
                 <button class="btn btn-red">Get Started &gt;</button>
             </div>
         </div>
-        <div class="bottomcurve">
-            <img src="ASSETS/bottomcurve.svg" alt="">
+        <div>
+            <svg class="separation-svg" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <defs>
+                    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+                        <feMerge>
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+                <path d="M0,100 Q720,0 1440,100" stroke="#e50914" stroke-width="4" fill="black" filter="url(#glow)"
+                         />
+                  
+            </svg>
         </div>
     </div>
 
