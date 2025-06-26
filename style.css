@@ -70,7 +70,6 @@ nav button {
     flex-direction: column;
     color: rgb(255, 255, 255);
     position: relative;
-    top: 25px;
     text-align: center;
     gap: 23px;
     font-style: normal;
@@ -293,7 +292,7 @@ h2 {
 .footer {
     padding: 50px 150px;
     background-color: black;
-    color: #757575;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
 }
 
@@ -302,7 +301,7 @@ h2 {
 }
 
 .footer-top a {
-    color: #757575;
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: underline;
 }
 
@@ -314,7 +313,7 @@ h2 {
 }
 
 .footer-links a {
-    color: #757575;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-links a:hover {
@@ -327,8 +326,8 @@ h2 {
 
 .footer-btn {
     background: transparent;
-    color: #757575;
-    border: 1px solid #757575;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
     padding: 6px 12px;
     border-radius: 3px;
     cursor: pointer;
@@ -336,7 +335,7 @@ h2 {
 
 .footer-country {
     font-size: 13px;
-    color: #757575;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (max-width: 768px) {
